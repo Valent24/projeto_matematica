@@ -137,7 +137,7 @@ function displayResult() {
   submitButton.style.display = 'none';
   retryButton.style.display = 'inline-block';
   showAnswerButton.style.display = 'inline-block';
-  resultContainer.innerHTML = `Parabéns. Pontuaste ${score} de ${quizData.length}!`;
+  resultContainer.innerHTML = `Parabéns.<br> Pontuação <br> <h1>${score} / ${quizData.length}</h1>`;
 }
 
 function retryQuiz() {
