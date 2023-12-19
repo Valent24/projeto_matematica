@@ -26,6 +26,8 @@ body {
     }
   }
 .container {
+  align-items: center;
+  text-align: right;
   width: 600px;
   padding: 30px;
   margin-top: 80px;
