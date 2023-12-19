@@ -5,7 +5,7 @@
     background-image: url(mate.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
   }
 body {
   font-family: 'Poppins', sans-serif;
@@ -26,8 +26,9 @@ body {
     }
   }
 .container {
+
   align-items: center;
-  text-align: right;
+  text-align: left;
   width: 600px;
   padding: 30px;
   margin-top: 80px;
