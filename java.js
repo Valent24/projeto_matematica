@@ -165,7 +165,7 @@ function showAnswer() {
         <strong class="question"> Pergunta :</strong> ${incorrectAnswers[i].question}<br><br>
         <strong class="question"> A tua resposta:</strong> ${incorrectAnswers[i].incorrectAnswer}<br><br>
         <b class= "question" >Resposta correta :</b> ${incorrectAnswers[i].correctAnswer}
-        <center>-----------------------------------------------</center>
+        <hr style=" height: 2px;background-color: black;border: none;">
       </p>
     `;
   }
