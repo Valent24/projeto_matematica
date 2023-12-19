@@ -7,7 +7,11 @@ body {
   justify-content: center;
 }
 
-
+@media only screen and (max-width: 600px) {
+ .conteiner{
+  width: 800px;
+ }
+  }
 .container {
   width: 600px;
   padding: 30px;
