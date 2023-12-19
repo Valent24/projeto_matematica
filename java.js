@@ -171,7 +171,7 @@ function showAnswer() {
   }
 
   resultContainer.innerHTML = `
-    <p>Parabéns. <br> Pontuaste ${score} de ${quizData.length} perguntas!</p><br>
+    <p>Parabéns.<br> Pontuação <br> <h1>${score} / ${quizData.length}</h1></p><br>
     <p>Respostas Incorretas:</p>
     ${incorrectAnswersHtml}
   `;
