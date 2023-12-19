@@ -4,11 +4,10 @@
     min-height: 100%;
     background-image: url(mate.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
   }
 body {
-  padding: 300px;
+  padding: 200px;
   font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
@@ -17,8 +16,6 @@ body {
 
   
 .container {
-
-  align-items: center;
   text-align: left;
   width: 600px;
   font-size: 20px;
