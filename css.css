@@ -13,9 +13,9 @@ body {
   justify-content: center;
 }
 
-.option input{
-  size: 28px;
-  font-size: 28px;
+input[type="radio"] {
+  min-width: 24px;
+  min-height: 24px;
 }
   
 .container {
