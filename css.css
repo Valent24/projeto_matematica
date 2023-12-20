@@ -13,11 +13,14 @@ body {
   justify-content: center;
 }
 
-
+.option input{
+  size: 28px;
+  font-size: 28px;
+}
   
 .container {
   text-align: left;
-  width: 750px;
+  width: 800px;
   font-size: 28px;
   padding: 30px;
   margin-top: 80px;
